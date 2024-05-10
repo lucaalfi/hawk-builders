@@ -20,6 +20,9 @@ Our task is to design and develop a website that reflects the professionalism an
 - Hawk-Builders-New is the basic started project for React/Vite, this is a placeholder but it's just so we have a place to start. 
 
 ## An Addendum about Git: 
-Everyone works with Git a bit differently but my suggestion would be that as we work on this project we should each make a new branch where our changes will live Those then should be merged into an active development branch one at a time before merging the cumulative changes in that branch into main. React is incredibly modular so it should help to minimize conflicts but keeping a well structured repo would also be helpful.
+Everyone works with Git a bit differently but my preference would be that, as we work on this project, we should each make a new branch where our changes will live Those then should be merged into an active development branch one at a time before merging the cumulative changes in that branch into main. React is incredibly modular so it should help to minimize conflicts but keeping a well structured repo would also be helpful.
+
+-Active Development Branch.
+
 
 
