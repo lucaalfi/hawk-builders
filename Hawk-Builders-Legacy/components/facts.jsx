@@ -9,21 +9,21 @@ import {up, left, right, down} from '../styles/anim.js';
 function facts(props){
     return(
         <div id="facts-section-container">
-            <div class="container">
+            <div className="container">
                 
-                <div class="info">
+                <div className="info">
                     <Fade triggerOnce keyframes={up} delay="0">
                         <FaUserFriends size="6rem" color="white" />
                         <p>{props.message1}</p>
                     </Fade>
                 </div>
-                <div class="info">
+                <div className="info">
                     <Fade triggerOnce keyframes={up} delay="20">
                         <BsHouseFill size="6rem" color="white" />
                         <p>{props.message2}</p>
                     </Fade>
                 </div>
-                <div class="info">
+                <div className="info">
                     <Fade triggerOnce keyframes={up} delay="40">
                         <BsSearch size="6rem" color="white" />
                         <p>{props.message3}</p>

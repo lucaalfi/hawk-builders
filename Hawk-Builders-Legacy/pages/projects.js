@@ -18,7 +18,7 @@ export default class Index extends Component{
         <Head>
           <title>Projects - Hawk Builders</title>
           <link rel="shortcut icon" href="https://i.ibb.co/PN3RFY5/favicon.png" />
-          <meta charset="UTF-8" />
+          <meta charet="UTF-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta name="description" content="Take A look at our projects - Hawk Builders has been in the industry striving to serve your dreams since 2005. Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." />
           <meta name="author" content="Site 4 u" />
@@ -27,15 +27,15 @@ export default class Index extends Component{
         <BackBtn />
 
 
-        <div class="container-project">
+        <div className="container-project">
 
 
           {/* House Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Houses</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
               <Image id="2" link="https://i.ibb.co/d5FyZXR/Screen-Shot-2021-06-11-at-8-03-08-AM.png" />
             </div>
@@ -43,11 +43,11 @@ export default class Index extends Component{
 
 
           {/* Interior Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Interior</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/5353880/pexels-photo-5353880.jpeg?cs=srgb&dl=pexels-curtis-adams-5353880.jpg&fm=jpg" />
               <Image id="2" link="https://images.pexels.com/photos/3315286/pexels-photo-3315286.jpeg?cs=srgb&dl=pexels-victoria-borodinova-3315286.jpg&fm=jpg" />
               <Image id="3" link="https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?cs=srgb&dl=pexels-christa-grover-2121121.jpg&fm=jpg" />
@@ -64,11 +64,11 @@ export default class Index extends Component{
 
 
           {/* Bedroom Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Bedroom</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/6585612/pexels-photo-6585612.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6585612.jpg&fm=jpg" />
               <Image id="2" link="https://images.pexels.com/photos/6489100/pexels-photo-6489100.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6489100.jpg&fm=jpg" />
               <Image id="3" link="https://images.pexels.com/photos/6587902/pexels-photo-6587902.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6587902.jpg&fm=jpg" />
@@ -77,11 +77,11 @@ export default class Index extends Component{
 
 
           {/* Kitchen Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Kitchens</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?cs=srgb&dl=pexels-tamil-king-3214064.jpg&fm=jpg" />
               <Image id="2" link="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?cs=srgb&dl=pexels-terry-magallanes-2635038.jpg&fm=jpg" />
               <Image id="3" link="https://images.pexels.com/photos/6585767/pexels-photo-6585767.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6585767.jpg&fm=jpg" />
@@ -90,11 +90,11 @@ export default class Index extends Component{
 
 
         {/* Basement Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Basements</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://i.ibb.co/L0pZ227/bs.jpg" />
               <Image id="2" link="https://i.ibb.co/2dsPZzw/bs1.jpg" />
               <Image id="3" link="https://i.ibb.co/ZYk83ND/bs2.jpg" />
@@ -106,11 +106,11 @@ export default class Index extends Component{
 
 
           {/* Washroom Container */}
-          <div class="container">
+          <div className="container">
             <Fade triggerOnce keyframes={right}>
               <h1>Washrooms</h1>
             </Fade>
-            <div class="imgContainerProjects">
+            <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/6587852/pexels-photo-6587852.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6587852.jpg&fm=jpg" />
               <Image id="2" link="https://images.pexels.com/photos/5071176/pexels-photo-5071176.jpeg?cs=srgb&dl=pexels-curtis-adams-5071176.jpg&fm=jpg" />
               <Image id="3" link="https://i.ibb.co/rwd8wQc/1.jpg" />

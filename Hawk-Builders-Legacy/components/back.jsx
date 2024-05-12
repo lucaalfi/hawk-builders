@@ -6,7 +6,7 @@ function back(){
         
         <div id="back">
             <Link href="/">
-                    <div class="container">
+                    <div className="container">
                         <BiArrowBack size="2.5rem" className="arrow" />
                         <h3> Back </h3>
                     </div>

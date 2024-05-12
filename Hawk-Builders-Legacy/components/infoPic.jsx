@@ -7,8 +7,8 @@ import {up, left, right, down} from '../styles/anim.js';
 function aboutUs(props){
     return(
         <div id="about-us-page-container">
-            <div class="container">
-                <div class="info">
+            <div className="container">
+                <div className="info">
                     <Fade triggerOnce keyframes={right} delay="20">
                         <h2>
                             {props.name}
@@ -20,7 +20,7 @@ function aboutUs(props){
                         </p>
                     </Fade>
                 </div>
-                <div class="image">
+                <div className="image">
                     <Fade triggerOnce keyframes={left} delay="20">
                         <img src={props.image}></img>
                     </Fade>

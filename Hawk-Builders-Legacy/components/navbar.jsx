@@ -11,7 +11,7 @@ function Navbar(props)
   useEffect(function(){
     window.onscroll = () => {
       const nav = document.querySelector('#navbar-container');
-      if($(window).scrollTop() <= 50) nav.className = ''; else nav.className = 'scroll';
+      if(!(nav===null))if($(window).scrollTop() <= 50) nav.className = ''; else nav.className = 'scroll';
     };
 
     $(document).on('click', 'a[href^="#"]', function (event) {

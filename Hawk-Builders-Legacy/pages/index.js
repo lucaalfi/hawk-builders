@@ -22,7 +22,7 @@ export default class Index extends Component{
           <title>Home - Hawk Builders</title>
           <link rel="icon" href="https://i.ibb.co/PN3RFY5/favicon.png" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta name="description" content="Hawk Builders has been in the industry striving to serve your dreams since 2005. Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." />
           <meta name="keywords" content="Hawk, Builders, Hawk Builders, H, B, HB, House, Construction, Basement, Washroom, Kitchen, Renovation, Upgrade, Living, Home, Construction" />
           <meta name="author" content="Site 4 u" />
@@ -66,7 +66,7 @@ export default class Index extends Component{
           </div>
 
           <Link legacyBehavior href="/projects"> 
-            <a class="viewMoreProjects"> View More </a> 
+            <a className="viewMoreProjects"> View More </a> 
           </Link>
 
         </div>

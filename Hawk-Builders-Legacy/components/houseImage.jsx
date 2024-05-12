@@ -8,7 +8,7 @@ import {up} from '../styles/anim.js';
 function houseImage(props){
     return(
         <Fade triggerOnce keyframes={up} delay={props.id * 100}>
-            <div class="houseImage">
+            <div className="houseImage">
                 <img src={props.link} />
             </div>
         </Fade>

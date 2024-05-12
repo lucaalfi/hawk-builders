@@ -10,7 +10,7 @@ function lPage(props){
     return(
         <div id="landing-page-container">
             <div id="video-container">
-                <iframe src={videoURL} autoplay frameborder="0" allowFullScreen> </iframe>
+                <iframe src={videoURL} autoPlay frameBorder="0" allowFullScreen> </iframe>
             
             <div id="video-overlay-container">
                 <Fade triggerOnce keyframes={up} delay="90">
@@ -19,7 +19,7 @@ function lPage(props){
                     </h1> 
                 </Fade>
                 <Fade triggerOnce keyframes={up} delay="120">
-                    <h6 class="desc">
+                    <h6 className="desc">
                         {props.desc}
                     </h6>
                 </Fade>

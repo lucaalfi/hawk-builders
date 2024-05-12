@@ -21,34 +21,34 @@ function contact(){
 
     return(
         <div id="contact-container">
-            <h1 class="title">Contact Us</h1>
-            <div class="container">
-                <div class="information">
+            <h1 className="title">Contact Us</h1>
+            <div className="container">
+                <div className="information">
                     <Fade triggerOnce keyframes={right}>
-                        <div class="number">
-                            <div class="image">
+                        <div className="number">
+                            <div className="image">
                                 <IoCall size="6rem" color="white" />
                             </div>
-                            <div class="info">
+                            <div className="info">
                                 <h1>Phone Number</h1>
                                 <h2>647-835-4402</h2>
                             </div>
                         </div>
                     </Fade>
                     <Fade triggerOnce keyframes={right} delay="30">
-                        <div class="email">
-                            <div class="image">
+                        <div className="email">
+                            <div className="image">
                                 <IoMail size="6rem" color="white" />
                             </div>
-                            <div class="info">
+                            <div className="info">
                                 <h1>Email</h1>
                                 <h2>contact@hawkbuilders.ca</h2>
                             </div> 
                         </div>
                     </Fade>
                 </div>
-                <div class="divider"></div>
-                <div class="contact">
+                <div className="divider"></div>
+                <div className="contact">
                     <form onSubmit={sendEmail}>
                         <Fade triggerOnce keyframes={left} delay="0">
                             <div>
@@ -75,8 +75,8 @@ function contact(){
                         </Fade>
                         
                         <Fade triggerOnce keyframes={left} delay="40">
-                            <div class="btn-container">
-                                <input class="btn" type="submit" value="SUBMIT"></input>
+                            <div className="btn-container">
+                                <input className="btn" type="submit" value="SUBMIT"></input>
                             </div>
                         </Fade>
                     </form>
