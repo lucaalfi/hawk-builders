@@ -8,7 +8,12 @@ import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';
 import Head from 'next/head'
 
-
+import buildImg from "../public/build.jpeg"
+import modelImg from "../public/model.png"
+import kitchedImg from "../public/kitched.jpg"
+import livingroomImg from "../public/livingroom.jpg"
+import washroomImg from "../public/washroom.jpg"
+import loungeImg from "../public/lounge.jpg"
 
 
 export default class Index extends Component{
@@ -37,7 +42,7 @@ export default class Index extends Component{
             </Fade>
             <div className="imgContainerProjects">
               <Image id="1" link="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
-              <Image id="2" link="https://i.ibb.co/d5FyZXR/Screen-Shot-2021-06-11-at-8-03-08-AM.png" />
+              <Image id="2" link={modelImg.src} />
             </div>
           </div>
 

@@ -4,13 +4,15 @@ import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';
 
 function card(props){
+    // console.log(props.img);
+
     var desc = props.desc;
     return(
         <div id="card-container">
             <Fade triggerOnce keyframes={up} delay={props.id * 100}>
             <div className="container">
                 <div className="img">
-                    <img src={props.img} />
+                    <img src={props.img.src} />
                 </div>
                 <div className="info">
                     <h3 className="name">{props.name}</h3>

@@ -11,7 +11,14 @@ import Footer from "../components/footer";
 import Reveal, { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';
-import Head from 'next/head'
+import Head from 'next/head';
+
+import buildImg from "../public/build.jpeg"
+import modelImg from "../public/model.png"
+import kitchedImg from "../public/kitched.jpg"
+import livingroomImg from "../public/livingroom.jpg"
+import washroomImg from "../public/washroom.jpg"
+import loungeImg from "../public/lounge.jpg"
 
 
 export default class Index extends Component{
@@ -56,12 +63,12 @@ export default class Index extends Component{
         </Fade>
           <div className="container">
             <div className="cards">
-              <Card id="1" name="Build"                        desc="We build houses to your taste. Just contact us to get a quote on the price."                                      img="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
-              <Card id="2" name="Model"                        desc="We model the ultimate dream house that you would want us to build for you."                                       img="https://i.ibb.co/d5FyZXR/Screen-Shot-2021-06-11-at-8-03-08-AM.png" />
-              <Card id="3" name="Kitchen"                      desc="Have a kitchen to Great Gordan's Standards."                                                                      img="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?cs=srgb&dl=pexels-tamil-king-3214064.jpg&fm=jpg" />
-              <Card id="4" name="Living Room"                  desc="Grab popcorn on a Friday nigh and enjoy a warm cozy room."                                                        img="https://images.pexels.com/photos/5353880/pexels-photo-5353880.jpeg?cs=srgb&dl=pexels-curtis-adams-5353880.jpg&fm=jpg" />
-              <Card id="5" name="Washroom"                     desc="No matter your budget, experience the washroom of a king."                                                        img="https://images.pexels.com/photos/5071176/pexels-photo-5071176.jpeg?cs=srgb&dl=pexels-curtis-adams-5071176.jpg&fm=jpg" />
-              <Card id="6" name="Lounge"                       desc="Call your friends over and enjoy the day by showing off your new lounge created by the 'Hawk Builders'."          img="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?cs=srgb&dl=pexels-terry-magallanes-2635038.jpg&fm=jpg" />
+              <Card id="1" name="Build"                        desc="We build houses to your taste. Just contact us to get a quote on the price."                                      img={buildImg} />
+              <Card id="2" name="Model"                        desc="We model the ultimate dream house that you would want us to build for you."                                       img={modelImg} />
+              <Card id="3" name="Kitchen"                      desc="Have a kitchen to Great Gordan's Standards."                                                                      img={kitchedImg} />
+              <Card id="4" name="Living Room"                  desc="Grab popcorn on a Friday nigh and enjoy a warm cozy room."                                                        img={livingroomImg} />
+              <Card id="5" name="Washroom"                     desc="No matter your budget, experience the washroom of a king."                                                        img={washroomImg}/>
+              <Card id="6" name="Lounge"                       desc="Call your friends over and enjoy the day by showing off your new lounge created by the 'Hawk Builders'."          img={loungeImg} />
             </div>
           </div>
 
