@@ -60,9 +60,8 @@
 }
 
 .houseImage img:hover {
-  z-index: 100 !important;
   background: rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  max-height: 390px;
+  max-width: 600px;
 }
 /*# sourceMappingURL=houseImage.css.map */
