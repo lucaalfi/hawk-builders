@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../styles/css/master.css";
 // import $ from 'jquery';
-// import Reveal, { Fade } from "react-awesome-reveal";
-// import { keyframes } from "@emotion/react";
-// import {up, left, right, down} from '../styles/anim.js';
+import Reveal, { Fade } from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
+import {up, left, right, down} from '../styles/anim.js';
 
 
 // Input - "name"
@@ -45,15 +45,15 @@ function Navbar(props)
   return(
     <nav id="navbar-container" className="">
         <ul id="navbar">
-            <li className="push nav-brand"><a href="">{props.name}</a></li>
-            <li className="push nav-brand nav-brand-mobile"><a href="">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a></li>
-            {/* <Fade triggerOnce keyframes={down} delay="5">
 
-            </Fade> */}
+            <Fade triggerOnce keyframes={down} delay="5">
+              <li className="push nav-brand"><a href="">{props.name}</a></li>
+              <li className="push nav-brand nav-brand-mobile"><a href="">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a></li>
+            </Fade>
             <div id="nav-link-container">
-            {/* <Fade triggerOnce keyframes={down} delay="20"></Fade> */}<li><a className="nav-link" href="#about-us-page-container">About Us</a></li>
-            {/* <Fade triggerOnce keyframes={down} delay="50"></Fade> */}<li><a className="nav-link" href="#Projects">Projects</a></li>
-            {/* <Fade triggerOnce keyframes={down} delay="80"></Fade> */}<li><a className="nav-link" href="#contact-container">Contact</a></li>
+            <Fade triggerOnce keyframes={down} delay="20"><li><a className="nav-link" href="#about-us-page-container">About Us</a></li></Fade>
+            <Fade triggerOnce keyframes={down} delay="50"><li><a className="nav-link" href="#Projects">Projects</a></li></Fade>
+            <Fade triggerOnce keyframes={down} delay="80"><li><a className="nav-link" href="#contact-container">Contact</a></li></Fade>
               <div id="bg-nav-link-container"></div>
             </div>
 

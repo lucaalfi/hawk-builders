@@ -709,6 +709,16 @@ body {
   font-size: 2.8rem;
 }
 
+#Projects .containerContainer{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          align-items: center;
+}
+
 #Projects .container {
   width: 75%;
   display: -webkit-box;
@@ -717,6 +727,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          align-items: center;
 }
 
 #Projects .container .cards {

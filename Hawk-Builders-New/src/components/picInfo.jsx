@@ -1,7 +1,7 @@
 import React from "react";
-// import Reveal, { Fade } from "react-awesome-reveal";
-// import { keyframes } from "@emotion/react";
-// import {up, left, right, down} from '../styles/anim.js';
+import Reveal, { Fade } from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
+import {up, left, right, down} from '../styles/anim.js';
 
 // Input - "name, desc, image"
 
@@ -12,24 +12,23 @@ function aboutUs(props){
         <div id="r-about-us-page-container">
             <div className="container">
                 <div className="image">
-                    <img src={props.image}></img>
-                    {/* <Fade triggerOnce keyframes={right} delay="20">
-                        
-                    </Fade> */}
+                    
+                    <Fade triggerOnce keyframes={right} delay="20">
+                        <img src={props.image}></img>   
+                    </Fade>
                 </div>
                 <div className="info">
-                    <h2>
-                        {props.name}
-                    </h2>
-                    {/* <Fade triggerOnce keyframes={left} delay="20">
-                        
-                    </Fade> */}
-                    <p>
-                        {props.desc}
-                    </p>
-                    {/* <Fade triggerOnce keyframes={left} delay="0">
+                    <Fade triggerOnce keyframes={left} delay="20">
+                        <h2>
+                            {props.name}
+                        </h2>
+                    </Fade>
 
-                    </Fade> */}
+                    <Fade triggerOnce keyframes={left} delay="0">
+                        <p>
+                            {props.desc}
+                        </p>
+                    </Fade>
                 </div>
             </div>
         </div>
