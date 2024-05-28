@@ -1,16 +1,16 @@
 import React from "react";
 import {BiArrowBack} from "react-icons/bi";
-import Link from "next/link";
+
 function back(){
     return(
         
         <div id="back">
-            <Link href="/">
+            <a href="/" className="projectsBack">
                     <div className="container">
                         <BiArrowBack size="2.5rem" className="arrow" />
                         <h3> Back </h3>
                     </div>
-            </Link>
+            </a>
         </div>
     );
 }

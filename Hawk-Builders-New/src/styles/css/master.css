@@ -29,6 +29,17 @@ body {
           transform: translateY(10px);
 }
 
+.projectsBack{
+  color: black;
+  text-decoration: none;  
+}
+
+.projectsBack:hover{
+  color:black; 
+  text-decoration:none; 
+  cursor:pointer;
+}
+
 #loader-container {
   position: absolute;
   top: 0;

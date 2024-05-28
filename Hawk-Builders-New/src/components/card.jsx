@@ -19,7 +19,7 @@ function card(props){
                         <hr />
                         <p className="desc">{desc}</p>
                         <p className="price">{props.price}</p>
-                        {/* <button class="btn">Learn More</button> */}
+                        <button className="btn">Learn More</button>
                     </div>
                 </div>
             </Fade>
