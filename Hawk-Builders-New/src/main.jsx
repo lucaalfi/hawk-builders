@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from './pages/index.jsx';
 import Projects from './pages/projects.jsx';
+import Test from './pages/test.jsx';
 // import './index.css'
 
 export default function HawkBuildersRoutes() {
@@ -11,6 +12,7 @@ export default function HawkBuildersRoutes() {
       <Routes>
         <Route path="/" element={<Index />}/>
         <Route path="/projects" element={<Projects />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </BrowserRouter>
   );

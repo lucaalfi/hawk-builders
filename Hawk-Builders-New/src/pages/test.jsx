@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "../styles/css/masterout.css";
-import "../styles/css/back.css";
-import "../styles/css/colors.css";
-import "../styles/css/houseImage.css";
+// import "../styles/css/back.css";
+// import "../styles/css/colors.css";
+// import "../styles/css/houseImage.css";
 
-import Navbar from "../components/navbar.jsx";
+import Navbar from "../components/navbarTailwind.jsx";
 import LandingPageVideo from "../components/LandingPageVideo.jsx";
 import AboutUs from "../components/infoPic.jsx";
 import RAboutUs from "../components/picInfo.jsx";
@@ -29,16 +29,18 @@ import washroomImg from "../public/washroom.jpg"
 import loungeImg from "../public/lounge.jpg"
 
 
-export default class Index extends Component{
+export default class Test extends Component{
   render(){
     return(
       <div>
         <Navbar name="Hawk Builders"/>
         <LandingPageVideo url="vyIh46Xawyo" name="Hawk Builders" desc="Strive To Serve Your Dream" /> 
-        <AboutUs  name="What is Hawk Builders"  desc="We have been in the industry striving to serve your dreams since 2005. Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." image={cuttingImg} />
+        <AboutUs  name="What is Hawk Builders"  desc="We have been in the industry striving to serve your dreams since 2005. 
+        Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, 
+        or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." image={cuttingImg} />
         <Facts message1="Your experience with us will be seamless" message2="We will make your Dream a Reality" message3="We serve you in numerous ways"/>
         
-        <RAboutUs  name="How We Serve You"  desc="
+        {/* <RAboutUs  name="How We Serve You"  desc="
             Contacting us, you can let us take care of all your stress, you can lean on us for all support. Our experienced team handle it all, starting from:
             Creating Rough sketch of your vision;
             Getting land surveys conducted;
@@ -82,7 +84,7 @@ export default class Index extends Component{
         <Footer />
         <Fade triggerOnce keyframes={up} delay="0">
           
-        </Fade>
+        </Fade> */}
         
       
 

@@ -1,5 +1,10 @@
 @import './colors.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 #back
 {
     margin: 30px 0px 10px 100px;
