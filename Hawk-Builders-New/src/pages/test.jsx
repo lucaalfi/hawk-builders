@@ -6,10 +6,10 @@ import "../styles/css/masterout.css";
 
 import Navbar from "../components/navbarTailwind.jsx";
 import LandingPageVideo from "../components/LandingPageVideoTailwind.jsx";
-import AboutUs from "../components/infoPic.jsx";
-import RAboutUs from "../components/picInfo.jsx";
-import Facts from "../components/facts.jsx";
-import Card from "../components/card.jsx";
+import AboutUs from "../components/infoPicTailwind.jsx";
+import RAboutUs from "../components/picInfoTailwind.jsx";
+import Facts from "../components/factsTailwind.jsx";
+import Card from "../components/cardTailwind.jsx";
 import Contact from "../components/fullContact.jsx";
 import Footer from "../components/footer.jsx";
 import Reveal, { Fade } from "react-awesome-reveal";
@@ -35,12 +35,14 @@ export default class Test extends Component{
       <div>
         <Navbar name="Hawk Builders"/>
         <LandingPageVideo url="vyIh46Xawyo" name="Hawk Builders" desc="Strive To Serve Your Dream" /> 
+        
         <AboutUs  name="What is Hawk Builders"  desc="We have been in the industry striving to serve your dreams since 2005. 
         Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, 
         or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." image={cuttingImg} />
+        
         <Facts message1="Your experience with us will be seamless" message2="We will make your Dream a Reality" message3="We serve you in numerous ways"/>
         
-        {/* <RAboutUs  name="How We Serve You"  desc="
+        <RAboutUs  name="How We Serve You"  desc="
             Contacting us, you can let us take care of all your stress, you can lean on us for all support. Our experienced team handle it all, starting from:
             Creating Rough sketch of your vision;
             Getting land surveys conducted;
@@ -58,12 +60,12 @@ export default class Test extends Component{
         <Facts message1="Your experience with us will be seamless" message2="We will make your Dream a Reality" message3="We serve you in numerous ways"/>
         
         
-        <div id="Projects">
-          <h1> Projects </h1> 
+        <div className="flex justify-center items-center" id="Projects">
+          <h1 className="text-5xl"> Projects </h1> 
           <Fade triggerOnce keyframes={up} delay="0">
-            <div className="containerContainer">         
-              <div className="container">
-                <div className="cards">
+            <div className="flex justify-center items-center">         
+              <div className="flex justify-center items-center w-9/12">
+                <div className="flex justify-evenly flex-wrap">
                   <Card id="1" name="Build"                        desc="We build houses to your taste. Just contact us to get a quote on the price."                                      img={buildImg} />
                   <Card id="2" name="Model"                        desc="We model the ultimate dream house that you would want us to build for you."                                       img={modelImg} />
                   <Card id="3" name="Kitchen"                      desc="Have a kitchen to Great Gordan's Standards."                                                                      img={kitchenImg} />
@@ -84,7 +86,7 @@ export default class Test extends Component{
         <Footer />
         <Fade triggerOnce keyframes={up} delay="0">
           
-        </Fade> */}
+        </Fade>
         
       
 
