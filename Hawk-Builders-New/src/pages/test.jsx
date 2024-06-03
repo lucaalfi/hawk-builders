@@ -5,7 +5,7 @@ import "../styles/css/masterout.css";
 // import "../styles/css/houseImage.css";
 
 import Navbar from "../components/navbarTailwind.jsx";
-import LandingPageVideo from "../components/LandingPageVideo.jsx";
+import LandingPageVideo from "../components/LandingPageVideoTailwind.jsx";
 import AboutUs from "../components/infoPic.jsx";
 import RAboutUs from "../components/picInfo.jsx";
 import Facts from "../components/facts.jsx";

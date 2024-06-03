@@ -32,22 +32,13 @@ function Navbar(props)
     });
   });
   
-  function navMenuToggle(){
-    document.getElementById("1").toggleClass("toggle-div-btn-1");
-    document.getElementById("2").toggleClass("toggle-div-btn-2");
-    document.getElementById("3").toggleClass("toggle-div-btn-3");
-    document.getElementById("nav-link-container").toggleClass("nav-link-move");
-  }
-  
-
-
   return(
     <nav className="fixed w-full z-20 pt-2 pb-1 top-0 start-0 bg-transparent" id="navContainer">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <Fade triggerOnce keyframes={down} delay="5">
             <div>
-              <a href="" className="text-5xl block py-2 px-3 md:p-0 border-none bg-transparent text-white hover:font-bold">{props.name}</a>
-              <a href="" className="text-5xl push nav-brand nav-brand-mobile text-5xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a>
+              <a href="" className="text-5xl hidden sm:block py-2 px-3 md:p-0 border-none bg-transparent text-white hover:font-bold">{props.name}</a>
+              <a href="" className="text-5xl block sm:hidden nav-brand-mobile text-5xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a>
             </div>
         </Fade>
       <div className="items-center justify-between w-full md:flex md:w-auto">
