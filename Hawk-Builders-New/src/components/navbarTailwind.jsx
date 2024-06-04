@@ -19,17 +19,7 @@ function Navbar(props)
       }
     };
 
-    var navLinksCollection = document.getElementsByClassName('nav-link');
 
-    var navLinksArray = Array.from(navLinksCollection); 
-
-    navLinksArray.forEach(navLink => {
-      navLink.addEventListener("click", function() {
-        preventDefault();
-
-        document.getElementById(navLink.href).scrollIntoView();
-      });
-    });
   });
   
   return(
@@ -45,17 +35,17 @@ function Navbar(props)
         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-white bg-opacity-25 md:bg-transparent">
               <Fade triggerOnce keyframes={down} delay="20">
                 <li>
-                  <a className="text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#about-us-page-container">About Us</a>
+                  <a className="navLink text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#AboutUsSection">About Us</a>
                 </li>
               </Fade>
               <Fade triggerOnce keyframes={down} delay="50">
                 <li>
-                  <a className="text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#Projects">Projects</a>
+                  <a className="navLink text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#Projects">Projects</a>
                 </li>
               </Fade>
               <Fade triggerOnce keyframes={down} delay="80">
                 <li>
-                  <a className="text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#contact-container">Contact</a>
+                  <a className="navLink text-3xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold" href="#ContactSection">Contact</a>
                 </li>
               </Fade>
               <div id="bg-nav-link-container"></div>

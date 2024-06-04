@@ -10,14 +10,14 @@ import PropTypes from 'prop-types'
 function aboutUs(props){
     return(
         <div className="flex justify-center items-center m-[5%]">
-            <div className="w-9/12 flex justify-center items-center">
-                <div className="flex justify-center items-center mr-[10%] w-5/12">
+            <div className="w-9/12 block md:flex justify-center items-center">
+                <div className="flex justify-center items-center md:mr-[10%] w-full md:w-5/12">
                     
                     <Fade triggerOnce keyframes={right} delay="20">
                         <img className="w-full rounded-3xl" src={props.image}></img>   
                     </Fade>
                 </div>
-                <div className="w-2/4">
+                <div className="w-full md:w-2/4">
                     <Fade triggerOnce keyframes={left} delay="20">
                         <h2 className="text-3xl">
                             {props.name}

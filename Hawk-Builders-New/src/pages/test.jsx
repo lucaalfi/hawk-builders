@@ -10,7 +10,7 @@ import AboutUs from "../components/infoPicTailwind.jsx";
 import RAboutUs from "../components/picInfoTailwind.jsx";
 import Facts from "../components/factsTailwind.jsx";
 import Card from "../components/cardTailwind.jsx";
-import Contact from "../components/fullContact.jsx";
+import Contact from "../components/fullContactTailwind.jsx";
 import Footer from "../components/footer.jsx";
 import Reveal, { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
@@ -36,12 +36,14 @@ export default class Test extends Component{
         <Navbar name="Hawk Builders"/>
         <LandingPageVideo url="vyIh46Xawyo" name="Hawk Builders" desc="Strive To Serve Your Dream" /> 
         
+        
         <AboutUs  name="What is Hawk Builders"  desc="We have been in the industry striving to serve your dreams since 2005. 
         Whether it is renovating a part of your house, whole house, building new legal basement along with a separate entrance, 
         or building brand new house from scratch in the City or in a country side, we are there to bring your vision to reality." image={cuttingImg} />
         
         <Facts message1="Your experience with us will be seamless" message2="We will make your Dream a Reality" message3="We serve you in numerous ways"/>
         
+        <div id="AboutUsSection"></div>
         <RAboutUs  name="How We Serve You"  desc="
             Contacting us, you can let us take care of all your stress, you can lean on us for all support. Our experienced team handle it all, starting from:
             Creating Rough sketch of your vision;
@@ -75,17 +77,17 @@ export default class Test extends Component{
                 </div>
               </div>
             </div>
-
-            <a className="viewMoreProjects" href="/projects"> View More </a> 
+            <div className="m-5">
+              <a className="text-xl rounded-3xl bg-[#6A2D33] text-white p-3 mt-6 shadow-black shadow-lg transition duration-500 hover:shadow-none" href="/projects"> View More </a> 
+            </div>
           </Fade>
         </div>
         
-
-        <Contact />
-
-        <Footer />
+        <div id="ContactSection"></div>
+        <Contact/>
+        
         <Fade triggerOnce keyframes={up} delay="0">
-          
+          <Footer />        
         </Fade>
         
       
