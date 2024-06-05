@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import "../styles/css/masterout.css";
-// import "../styles/css/back.css";
-// import "../styles/css/colors.css";
-// import "../styles/css/houseImage.css";
 
 import Navbar from "../components/navbarTailwind.jsx";
 import LandingPageVideo from "../components/LandingPageVideoTailwind.jsx";
@@ -13,10 +10,7 @@ import Card from "../components/cardTailwind.jsx";
 import Contact from "../components/fullContactTailwind.jsx";
 import Footer from "../components/footerTailwind.jsx";
 import Reveal, { Fade } from "react-awesome-reveal";
-import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';
-
-import favicon from "../public/favicon.png"
 
 import contractImg from "../public/contract.png"
 import cuttingImg from "../public/cutting.png"

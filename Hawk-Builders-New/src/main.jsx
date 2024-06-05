@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import IndexTailwind from './pages/indexTailwind.jsx';
 import ProjectsTailwind from './pages/projectsTailwind.jsx';
-// import './index.css'
 
 export default function HawkBuildersRoutes() {
   return (

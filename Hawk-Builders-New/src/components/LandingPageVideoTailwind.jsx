@@ -1,8 +1,5 @@
 import React from "react";
 import "../styles/css/masterout.css";
-import "../styles/css/back.css";
-import "../styles/css/colors.css";
-import "../styles/css/houseImage.css";
 
 import Reveal, { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
