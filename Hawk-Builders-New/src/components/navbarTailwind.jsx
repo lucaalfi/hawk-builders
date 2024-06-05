@@ -10,11 +10,13 @@ function Navbar(props)
     window.onscroll = () => {
       const nav = document.getElementById("navContainer");
       if(!(nav===null)){
-        if((window).scrollY <= 50){
-          nav.classList.remove("scroll");
+        if((window).scrollY > 50){
+          nav.classList.add("bg-[#6A2D33]");
+          nav.classList.remove("bg-transparent");
         }
-        else{ 
-          nav.classList.add("scroll");
+        else{
+          nav.classList.add("bg-transparent");
+          nav.classList.remove("bg-[#6A2D33]");
         }
       }
     };
@@ -23,12 +25,12 @@ function Navbar(props)
   });
   
   return(
-    <nav className="fixed w-full z-20 pt-2 pb-1 top-0 start-0 bg-transparent" id="navContainer">
+    <nav className="transition-all transition duration-500 fixed w-full z-20 pt-2 pb-1 top-0 start-0" id="navContainer">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <Fade triggerOnce keyframes={down} delay="5">
             <div>
               <a href="" className="text-5xl hidden sm:block py-2 px-3 md:p-0 border-none bg-transparent text-white hover:font-bold">{props.name}</a>
-              <a href="" className="text-5xl block sm:hidden nav-brand-mobile text-5xl block py-2 px-3 rounded bg-transparent md:p-0 text-white hover:font-bold">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a>
+              <a href="" className="text-5xl block sm:hidden nav-brand-mobile text-5xl block py-2 px-3 rounded bg-transparent md:p-0 text-white font-bold">{props.name.split(/\s/).reduce((response,word)=> response+=word.slice(0,1),'')}</a>
             </div>
         </Fade>
       <div className="items-center justify-between w-full md:flex md:w-auto">
