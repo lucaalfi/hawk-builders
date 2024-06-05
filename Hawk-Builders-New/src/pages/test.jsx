@@ -11,7 +11,7 @@ import RAboutUs from "../components/picInfoTailwind.jsx";
 import Facts from "../components/factsTailwind.jsx";
 import Card from "../components/cardTailwind.jsx";
 import Contact from "../components/fullContactTailwind.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/footerTailwind.jsx";
 import Reveal, { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';

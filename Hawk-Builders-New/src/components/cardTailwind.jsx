@@ -11,7 +11,7 @@ function card(props){
         <div id="relative m-[2%]">
             <Fade triggerOnce keyframes={up} delay={props.id * 100}>
                 <div className="relative h-[300px] w-[250px] m-3 flex justify-center items-center text-center
-                                 hover:overflow-hidden transition duration-500  transform transition duration-500 
+                                 hover:overflow-hidden transition duration-500 transform transition duration-500 
                                  hover:scale-110">
                     <div className="overflow-hidden rounded-3xl">
                         <img className="h-[300px] w-[250px] rounded-3xl object-cover -z-10" src={props.img} />
