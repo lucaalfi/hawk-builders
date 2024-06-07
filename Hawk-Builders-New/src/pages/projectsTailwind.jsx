@@ -55,11 +55,11 @@ export default class ProjectsTailwind extends Component{
 
 
           {/* House Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Houses</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={buildImg} />
               <Image id="2" link={modelImg} />
             </div>
@@ -67,11 +67,11 @@ export default class ProjectsTailwind extends Component{
 
 
           {/* Interior Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Interior</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={livingroomImg} />
               <Image id="2" link={wardrobeImg} />
               <Image id="3" link={stairsImg} />
@@ -88,11 +88,11 @@ export default class ProjectsTailwind extends Component{
 
 
           {/* Bedroom Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Bedroom</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={bedroom1} />
               <Image id="2" link={bedroom2} />
               <Image id="3" link={bedroom3} />
@@ -101,11 +101,11 @@ export default class ProjectsTailwind extends Component{
 
 
           {/* Kitchen Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Kitchens</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={kitchenImg} />
               <Image id="2" link={kitchen2Img} />
               <Image id="3" link={kitchen3Img} />
@@ -114,11 +114,11 @@ export default class ProjectsTailwind extends Component{
 
 
         {/* Basement Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Basements</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={basement1} />
               <Image id="2" link={basement2} />
               <Image id="3" link={basement3} />
@@ -130,11 +130,11 @@ export default class ProjectsTailwind extends Component{
 
 
           {/* Washroom Container */}
-          <div className="w-9/12 mb-[5%] text-center">
+          <div className="w-9/12 mb-[5%] text-left">
             <Fade triggerOnce keyframes={right}>
               <h1 className="text-4xl">Washrooms</h1>
             </Fade>
-            <div className="flex justify-center items-center justify-around flex-wrap">
+            <div className="flex justify-left items-left justify-start flex-wrap">
               <Image id="1" link={washroom1} />
               <Image id="2" link={washroom2} />
               <Image id="3" link={washroom3} />

@@ -15,7 +15,7 @@ function lPage(props){
                     <iframe src={videoURL} autoPlay frameBorder="0" allowFullScreen className="h-full w-full -z-10"> </iframe>
                 </div>
             
-                <div className="aspect-w-16 aspect-h-9 flex z-10 bg-[#6A2D33] md:bg-black md:bg-opacity-40 md:-translate-x-[100vw]">
+                <div className="aspect-w-16 aspect-h-9 flex z-10 bg-rose-900 md:bg-black md:bg-opacity-40 md:-translate-x-[100vw]">
                     <div className="flex justify-center items-center">
                         <div className="text-center">
                             <Fade triggerOnce keyframes={up} delay="90">

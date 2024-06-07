@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 function card(props){
     var desc = props.desc;
     return(
-        <div id="relative m-[2%]">
+        <div className="relative m-3 p-3">
             <Fade triggerOnce keyframes={up} delay={props.id * 100}>
                 <div className="relative h-[300px] w-[250px] m-3 flex justify-center items-center text-center
                                  hover:overflow-hidden transition duration-500 transform transition duration-500 

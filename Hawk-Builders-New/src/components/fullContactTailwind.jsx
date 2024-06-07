@@ -20,7 +20,7 @@ function contact(){
       }
 
     return(
-        <div className="flex flex-col justify-center items-center bg-[#6A2D33] text-white w-full p-10">
+        <div className="flex flex-col justify-center items-center bg-rose-900 text-white w-full p-10">
             <h1 className="mb-[3%] p-0 text-5xl text-white">Contact Us</h1>
             <div className="w-9/12 block md:flex justify-center items-center justify-evenly">
                 <div className="w-full md:w-5/12">
@@ -72,7 +72,7 @@ function contact(){
                         </Fade>
                         <Fade triggerOnce keyframes={left} delay="40">
                             <div className="btn-container relative flex justify-center items-center">
-                                <input className="text-xl rounded-3xl bg-[#6A2D33] text-white p-3 shadow-black shadow-lg transition duration-500 hover:shadow-none" type="submit" value="SUBMIT"></input>
+                                <input className="text-xl rounded-3xl bg-rose-900 text-white p-3 shadow-black shadow-lg transition duration-500 hover:shadow-none" type="submit" value="SUBMIT"></input>
                             </div>
                         </Fade>
                     </form>

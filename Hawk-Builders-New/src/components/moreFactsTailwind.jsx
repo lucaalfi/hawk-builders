@@ -1,20 +1,22 @@
 import React, {useEffect} from "react";
 import { FaUserGroup } from "react-icons/fa6";
-import { BsHouseFill, BsSearch } from "react-icons/bs";
+import { BsPaintBucket, BsPlug, BsBricks, } from "react-icons/bs";
 import Reveal, { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 import {up, left, right, down} from '../styles/anim.js';
 
 // Input - "message1, message2, message3"
-function facts(props){
+function MoreFacts(props){
     return(
-        <div className="flex justify-center items-center bg-rose-900" id="facts-section-container">
+        <div className="flex flex-col justify-center items-center bg-rose-900" id="facts-section-container">
+                <div className="w-full justify-center items-center text-center">
+                    <h1 className="text-white p-2 text-2xl font-bold">We have you cover for all your construction needs.</h1>    
+                </div> 
             <div className="w-9/12 flex justify-center items-center">
-                
                 <div className="w-1/5 block justify-center items-center p-[2%] m-[2%]">
                     <Fade triggerOnce keyframes={up} delay="0">
                         <div className="flex justify-center items-center">
-                            <FaUserGroup size="6rem" color="white" />
+                            <BsBricks size="6rem" color="white" />
                         </div>
                         <p className="text-center text-white">{props.message1}</p>  
                     </Fade>
@@ -22,7 +24,7 @@ function facts(props){
                 <div className="w-1/5 block justify-center items-center p-[2%] m-[2%]">
                     <Fade triggerOnce keyframes={up} delay="20">
                         <div className="flex justify-center items-center">
-                            <BsHouseFill size="6rem" color="white" />
+                            <BsPlug size="6rem" color="white" />
                         </div>
                         <p className="text-center text-white">{props.message2}</p>
                     </Fade>
@@ -30,7 +32,7 @@ function facts(props){
                 <div className="w-1/5 block justify-center items-center p-[2%] m-[2%]">
                     <Fade triggerOnce keyframes={up} delay="40">
                         <div className="flex justify-center items-center">
-                            <BsSearch size="6rem" color="white" />
+                            <BsPaintBucket size="6rem" color="white" />
                         </div>
                         <p className="text-center text-white">{props.message3}</p>
                     </Fade>
@@ -39,4 +41,4 @@ function facts(props){
         </div>
     );
 }
-export default facts
+export default MoreFacts;

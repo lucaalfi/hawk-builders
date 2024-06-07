@@ -11,12 +11,12 @@ function Navbar(props)
       const nav = document.getElementById("navContainer");
       if(!(nav===null)){
         if((window).scrollY > 50){
-          nav.classList.add("bg-[#6A2D33]");
+          nav.classList.add("bg-rose-900");
           nav.classList.remove("bg-transparent");
         }
         else{
           nav.classList.add("bg-transparent");
-          nav.classList.remove("bg-[#6A2D33]");
+          nav.classList.remove("bg-rose-900");
         }
       }
     };
